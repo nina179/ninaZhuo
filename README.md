@@ -21,7 +21,7 @@ This page serves as an introduction to the website my creative philosophies. It 
 ## about.html
 This page serves as a more detailed introduction to my professional experience and specific research interests. It includes the city where I'm currently based, my contact information, and a sort of statement of objectives. It's like a cute resume. 
 ### Components
-+ Side navigation including links to home page, about page (active status), portfolio website, and blog
++ Side navigation including links to home page, about page (active status), portfolio, and blog
 + Headshot photo with alt text and caption describing who I am, the work I do, and where I am based
 + List with professional details 
 ### Nesting
@@ -53,9 +53,35 @@ This page serves as a more detailed introduction to my professional experience a
 ## portfolio.html
 This page houses links to my work, mostly hosted in this site but (hopefully!!) will also begin to be populated with links to published works on external sites with external groups, organizations, and artists.
 ### Components
++ Side navigation including links to home page, about page, portfolio (active status), and blog
++ Search or filter component
++ List of work components aka sample work class divs
+    + includes title (linked), date published or written, and type of piece
+    + should be able to sort and search by title, month and year, and type
 ### Nesting
++ NINA ZHUO
+    + Portfolio
+        + Titles (linked)
+### Subpages 
++ Portfolio_title_PieceType.html
+    + date and genre tags
+    + text content
+    + previous page button (breadcrumb?) at bottom of the page taking you back to preivous location
 
 ## blog.html
 This page is the landing page for more informal pieces with book and movie reviews, reflections and ramblings, and my less polished poetry. 
 ### Components
++ Side navigation including links to home page, about page, portfolio , and blog (active status)
++ Search or filter component
++ List of work components aka sample work class divs
+    + includes title (linked), date published or written, and location written
+    + should be able to sort and search by title, month and year, and location
 ### Nesting
++ NINA ZHUO
+    + Blog
+        + Titles (linked)
+### Subpages 
++ Blog_title_Month0024.html
+    + date and location
+    + text content
+    + previous page button (breadcrumb?) at bottom of the page taking you back to preivous location
