@@ -1,0 +1,31 @@
+body {
+    background-color: #F4EDEA;
+} 
+
+p {
+    font-family: 'EB Garamound';
+    line-height: 1.25;
+}
+
+h1 {
+    font-family: 'Lalezar';
+    font-size: 32px;
+    color: #3F612D;
+    font-weight: bolder;
+    text-shadow: 2px 2px white;
+}
+
+h2 {
+    margin-bottom: -8px;
+}
+
+a, a:active, a:visited {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EA9010;
+    font-weight: bold;
+}
