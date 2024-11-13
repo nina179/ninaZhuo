@@ -1,3 +1,7 @@
+This site is hosted on https://nina179.github.io/ninaZhuo/
+
+<!--
+
 # ninaZhuo
 This repository houses the source code for the portfolio website of Nina Zhuo (me). It displays creative writing and website design work, houses a blog platform with an discussion boards, and provides means to contact and comission further works and bookings. The website will be fully keyboard accessible.
 
@@ -85,3 +89,5 @@ This page is the landing page for more informal pieces with book and movie revie
     + date and location
     + text content
     + previous page button (breadcrumb?) at bottom of the page taking you back to preivous location
+
+-->
