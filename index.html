@@ -3,38 +3,10 @@
   <head>
     <title>Nina Zhuo | Home</title>
     <meta charset="UTF-8">
+
+    <!--linked stylesheets and scripts-->
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
-    <!--add styles, javascript, and components-->
-    <style>
-        .container {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-        } .left {
-            flex: 50%;
-            padding: 1em;
-            background-image: url('cover.jpeg');
-            background-size: cover;
-        } .right {
-            flex: 50%;
-            padding: 1em;
-        }
-
-        @media(max-width: 600px) {
-            .container {
-                width: 100%;
-                height: 100vh;
-                display: flex;
-            } .left {
-                flex: 100%;
-                padding-bottom: 1em;
-            } .right {
-                flex: 100%;
-                padding-top: 1em;
-            }
-        }
-    </style>
 </head>
   <body>
     <main>
@@ -42,21 +14,39 @@
 
         <!--interactive magazine cover page navigation-->
         <div class="left">
-        <img src="/cover.jpeg" alt="magazine cover image"/>
 
-            <h1>Nina Zhuo</h1>
-
-            <h2><a id="#about-link" href="/pages/about/about.html">About</a></h2>
-                <p>details about my education, work experience, goals and aspirations, 
-                    current projects, points of contact, etc. etc.</p>
-            <h2><a id="#portfolio-link" href="/pages/portfolio/portfolio.html">Portfolio</a></h2>
-                <p>poems, essays, short stories, and sample websites for your viewing 
-                    pleasure. always looking for publication opportunities and 
-                    commisions!</p>
-            <h2><a id="#blog-link" href="/pages/blog/blog.html">Blog</a></h2>
-                <p>where I play around with things I’ve been experiencing, books
-                    I’ve been reading, thoughts that I’m lingering on. Also a
-                    few bad poems</p>
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <h1>Nina Zhuo</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="33%">
+                        <h2><a id="#about-link" href="/pages/about/about.html">About</a></h2>
+                        <p>details about my education, work experience, goals and aspirations, 
+                            current projects, points of contact, etc. etc.</p>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2><a id="#portfolio-link" href="/pages/portfolio/portfolio.html">Portfolio</a></h2>
+                        <p>poems, essays, short stories, and sample websites for your viewing 
+                            pleasure. always looking for publication opportunities and 
+                            commisions!</p>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><h2><a id="#blog-link" href="/pages/blog/blog.html">Blog</a></h2>
+                        <p>where I play around with things I’ve been experiencing, books
+                            I’ve been reading, thoughts that I’m lingering on. Also a
+                            few bad poems</p></td>
+                </tr>
+            </table>
         </div>
 
         <!--cover letter-->
